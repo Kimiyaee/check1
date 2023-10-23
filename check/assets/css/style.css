@@ -1,0 +1,53 @@
+body{
+    background: black;
+    height: 100vh;
+}
+.bd-highlight{
+    background: #dbdfe5;
+    min-height: 300px;
+    border-radius: 10px;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+.img{
+    float: left;
+    width: 100%;
+}
+.tick{
+    float: left;
+}
+.text {
+    float: center;
+    padding: 5px;
+    text-align: left;
+}
+.inputt{
+    border-radius: 10px;
+    
+}
+.button{
+    margin-top: 10px;
+    border-radius: 10px;
+    background: #231a70;
+    color: white;
+    float: center;
+}
+.error{
+    float: right;
+    padding: 5px;
+    text-align: right;
+    font-size: 15px;
+    display: inline;
+    color: red;
+}
+.button:hover {background: #922b2b;}
+.imgMobile{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    height: 50%;
+}
